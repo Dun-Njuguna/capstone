@@ -25,9 +25,9 @@ public class PopularAdapter extends RecyclerView.Adapter<PopularAdapter.AllComic
     private ArrayList<Popular> mPopular;
     private Context mContext;
 
-    public PopularAdapter(Context context, ArrayList<Popular> comics) {
+    public PopularAdapter(Context context, ArrayList<Popular> movies) {
         mContext = context;
-        mPopular = comics;
+        mPopular = movies;
     }
 
     @Override
